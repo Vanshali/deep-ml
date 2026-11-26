@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:57:16.224Z",
+  "generated_at": "2026-11-26T12:12:58.577Z",
   "items": {
     "problem:173": {
       "kind": "problem",
@@ -11,6 +11,19 @@
       "path": "problems/0173-implement-k-nearest-neighbors",
       "first_solved_at": "2026-11-21T17:03:03.558Z",
       "last_pushed_at": "2026-11-22T12:57:15.289Z",
+      "language": "python",
+      "lines": 31
+    },
+    "problem:15": {
+      "kind": "problem",
+      "id": "15",
+      "title": "Linear Regression Using Gradient Descent",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/15",
+      "path": "problems/0015-linear-regression-using-gradient-descent",
+      "first_solved_at": "2026-11-26T12:12:57.807Z",
+      "last_pushed_at": "2026-11-26T12:12:57.807Z",
       "language": "python",
       "lines": 31
     }
