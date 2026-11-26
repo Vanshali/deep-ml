@@ -55,8 +55,8 @@ class LinearRegression:
             gradient_wrt_weight = (-1/self.n) * np.dot(X.T,error)
             gradient_wrt_bias = (-1/self.n) * np.sum(error)
             
-            self.weight -= gradient_wrt_weight
-            self.bias -= gradient_wrt_bias
+            self.weight -= alpha * gradient_wrt_weight
+            self.bias -= alpha * gradient_wrt_bias
             
     def predict(self,X):
         return np.dot(X,self.weight) + self.bias
